@@ -1,0 +1,14 @@
+[project]
+name = "261020-bucheon-chatbot-ysh"
+version = "0.1.0"
+description = "Groq API 기반 Tkinter 채팅 프로그램"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
