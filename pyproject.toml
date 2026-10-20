@@ -5,6 +5,7 @@ description = "Groq API 기반 Tkinter 채팅 프로그램"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "google-genai>=2.31.0",
     "groq>=1.7.0",
     "python-dotenv>=1.2.4",
 ]
